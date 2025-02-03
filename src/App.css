@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #303030;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -41,6 +41,14 @@ body {
   object-fit: cover;
 }
 
+.SFClogo {
+  width: 30px;
+  height: 30px;
+  line-height: 25px;
+  float: left;
+  padding: 12px;
+}
+
 
 .header a {
   float: left;
@@ -51,11 +59,12 @@ body {
 
 .subheader-info {
   line-height: 25px;
-  color: blue;
+  color: rgb(255, 255, 255);
 }
 
 .header {
-  background-color: rgb(139, 0, 0);
+  background: linear-gradient(to right, #910101, #e2cf44);
+  background-color: #910101;
   color: white;
   text-align: center;
   padding: 20px;
@@ -74,7 +83,7 @@ body {
 .menu a {
   color: white;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 12px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 500;
@@ -90,8 +99,9 @@ body {
 }
 
 .subheader-info h2 {
-  font-size: 18px;
-  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 12px;
   color: white;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
