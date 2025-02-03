@@ -1,5 +1,3 @@
-import players from './players'
-
 function PlayerCard({ player }) {
   return (
     <div className="player-card">
@@ -7,11 +5,23 @@ function PlayerCard({ player }) {
       <h2>
         {player.name} ({player.nickName})
       </h2>
-      <p>Position: {player.position}</p>
-      <p>Number: {player.number}</p>
-      <p>Age: {player.age}</p>
-      <p>Nationality: {player.nationality}</p>
-      <p>Origin: {player.origin}</p>
+      <ul>
+        <p>Position: {player.position}</p>
+        <p>Number: {player.number}</p>
+        <p>Age: {player.age}</p>
+        <p>Nationality: {player.nationality}</p>
+        <p>Origin: {player.origin}</p>
+        {player.socialMedia && player.socialMedia.instagram && (
+          <a
+            href={player.socialMedia.instagram}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-button"
+          >
+            Follow my Instagram
+          </a>
+        )}
+      </ul>
     </div>
   )
 }

@@ -1,20 +1,21 @@
 import './App.css'
-// import players from './players.json'
-
-// const App = () => {
-// return <></>
-// }
-
-// export default App
-
+import players from './data/players.json'
 import PlayerCard from './components/PlayerCard'
-import players from './players.json'
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 const App = () => {
-  return
-  ;<div>
-    <PlayerCard players={players} />
-  </div>
+  return (
+    <>
+      <Header />
+      <div className="player-list">
+        {players.teams.map((player, index) => (
+          <PlayerCard player={player} key={index} />
+        ))}
+      </div>
+      <Footer />
+    </>
+  )
 }
 
 export default App
