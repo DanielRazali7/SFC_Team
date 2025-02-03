@@ -41,16 +41,6 @@ body {
   object-fit: cover;
 }
 
-.header {
-  margin: 0;
-  background-color: rgb(127, 3, 3);
-  background: linear-gradient(to right, #8f0b0b, #fdd50d);
-  color: #f4f4f4;
-  min-height: 20vh;
-  padding: 0px;
-  position: sticky;
-  top: 0;
-}
 
 .header a {
   float: left;
