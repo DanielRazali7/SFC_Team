@@ -16,7 +16,7 @@ const Header = () => {
         <a href="#">Fans</a>
       </nav>
       <div className="subheader-info">
-        <h1>SFC Squad</h1>
+        <h1>SFC First Team</h1>
         <h2>Meet the SFC Squad for the 2024/25 Season</h2>
       </div>
     </div>
