@@ -1,25 +1,33 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #303030;
+  background-color: #e2e2e2;
   text-align: center;
   display: flex;
   flex-direction: column;
 }
 
 .player-card {
+ font-size: small;
+ text-align: center;
   display: flex;
   flex-wrap: wrap;
-  background: white;
+  background: rgb(240, 240, 240);
   padding: 12px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 250px;
 }
 
+.player-card  h2 {
+  text-align: center;
+  color: #3e0303;
+}
+
 .player-list p {
+  color: #5b0000;
   margin: 0 0px;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 14px;
+  font-weight: 500;
   margin-bottom: 8px;
   text-align: left;
 }
@@ -42,8 +50,8 @@ body {
 }
 
 .SFClogo {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   line-height: 25px;
   float: left;
   padding: 12px;
@@ -63,7 +71,7 @@ body {
 }
 
 .header {
-  background: linear-gradient(to right, #910101, #e2cf44);
+  background: linear-gradient(to bottom, #910101, #181601);
   background-color: #910101;
   color: white;
   text-align: center;
@@ -110,7 +118,7 @@ body {
 .social-button {
   display: inline-block;
   padding: 8px 12px;
-  background-color: #0073e6;
+  background-color: #910101;
   color: white;
   text-decoration: none;
   font-weight: bold;
@@ -120,11 +128,11 @@ body {
 }
 
 .social-button:hover {
-  background-color: #005bb5;
+  background-color: #d9c636;
 }
 
 .footer {
-  background-color: rgb(139, 0, 0);
+  background: linear-gradient(to bottom, #910101, #181601);
   color: white;
   text-align: center;
   padding: 20px;
@@ -147,7 +155,7 @@ body {
   justify-content: center;
   gap: 20px;
   font-size: 12px;
-  color: rgb(251, 251, 251);
+  color: rgb(245, 243, 243);
   }
 }
 
