@@ -7,16 +7,19 @@ const Header = () => {
           alt="Logo"
           className="SFClogo"
         />
-        <a href="#">Home</a>
-        <a href="#">News</a>
-        <a href="#">Fixtures</a>
-        <a href="#">About</a>
-        <a href="#">Squad</a>
-        <a href="#">Partners</a>
-        <a href="#">Fans</a>
+        <a href="https://www.selangorfc.com/en/home">Home</a>
+        <a href="https://www.selangorfc.com/en/news">News</a>
+        <a href="https://ticket.tickethotline.com.my/club/selangor/4/home">
+          Fixtures
+        </a>
+        <a href="https://www.selangorfc.com/en/about-fas">About</a>
+        <a href="https://www.selangorfc.com/en/home">Squad</a>
+        <a href="https://www.selangorfc.com/en/partners">Partners</a>
+        <a href="https://www.selangorfc.com/en/team-card">Team Card</a>
       </nav>
+      <hr className="separator" />
       <div className="subheader-info">
-        <h1>SFC First Team</h1>
+        <h1>Selangor FC First Team</h1>
         <h2>Meet the SFC Squad for the 2024/25 Season</h2>
       </div>
     </div>

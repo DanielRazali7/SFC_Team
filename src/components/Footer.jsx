@@ -7,7 +7,7 @@ const Footer = () => {
         className="SFClogoF"
       />
       <div className="footer-info">
-        <h2>Selangor No Surrender. Since 1936</h2>
+        <h2>Selangor No Surrender. Since 1936.</h2>
       </div>
       <nav className="footer-menu">
         <a href="https://www.selangorfc.com">Policy</a>
